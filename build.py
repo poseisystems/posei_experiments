@@ -8,7 +8,7 @@ import subprocess
 from datetime import datetime
 from pathlib import Path
 
-from Cython.Build import build_ext, cythonize
+from Cython.Build import build_ext, cythonize 
 from Cython.Compiler import Options
 from Cython.Compiler.Version import version as cython_compiler_version
 from setuptools import Distribution, Extension
