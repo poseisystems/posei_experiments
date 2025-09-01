@@ -16,6 +16,9 @@ fn main() {
     let config_c = cbindgen::Config::from_file("cbindgen.toml")
         .expect("Unable to find cbindgen.toml configuration file");
 
+    // Generate header file and analytics file
+    let config_analytics;
+
     cbindgen::generate_with_config(&crate_dir, config_c.clone())
         .expect("Unable to generate bindings")
         .write_to_file(crate_dir.join("../data/includes/core.h"));
