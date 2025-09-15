@@ -33,7 +33,7 @@ fn main() {
         .expect("Unable to generate bindings")
         .write_to_file(&pxd_path);
 
-    // Post-process the .pxd file to add uint128_t definition
+
     let content = fs::read_to_string(&pxd_path).expect("Unable to read .pxd file");
     let lines: Vec<&str> = content.lines().collect();
 
