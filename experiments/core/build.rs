@@ -38,6 +38,7 @@ fn main() {
     let lines: Vec<&str> = content.lines().collect();
 
     let mut output = String::new();
+    let mut output = String::new();
     let mut found_extern = false;
 
     for line in lines {
