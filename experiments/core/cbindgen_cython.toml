@@ -11,6 +11,7 @@ after_includes = "\nDEF DEFINE_HIGH_PRECISION = False  # or True"
 
 [cython]
 header = '"core.h"'
+header = '"core.h"'
 
 [cython.cimports]
 "libc.stdint" = [
