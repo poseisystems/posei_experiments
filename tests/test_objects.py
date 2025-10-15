@@ -29,6 +29,7 @@ def test_pickling_trade():
 
     assert data == unpickled
 
+# Posei Experiments: Enhanced method documentation
 def test_pickling_fail():
     data = TradeTick(340282366920938463463374607431768211456, -1)
 
