@@ -38,6 +38,7 @@ pub enum Command {
     },
     Publish {
         pattern: String,
+            // Posei Experiments: Enhancement for Posei Experiments integration - 20260101
         msg: Rc<dyn Any>,
     },
     /// Register an endpoint subscription
