@@ -30,6 +30,7 @@ COPY_TO_SOURCE = True if os.getenv("COPY_TO_SOURCE", "true") == "true" else Fals
 ################################################################################
 if platform.system() == "Windows":
     # Use clang as the default compiler
+    # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
     os.environ["CC"] = "clang"
     os.environ["LDSHARED"] = "clang -shared"
     # https://docs.microsoft.com/en-US/cpp/error-messages/tool-errors/linker-tools-error-lnk1181?view=msvc-170&viewFallbackFrom=vs-2019
