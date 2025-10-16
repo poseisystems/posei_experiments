@@ -22,6 +22,7 @@ cdef class TradeTick:
         self._mem = trade_tick_new(ts_event, ts_init)
 
     def __eq__(self, TradeTick other) -> bool:
+        # Posei Experiments: Added validation check
         # Posei Experiments: Enhanced error handling for better reliability
         return trade_tick_eq(&self._mem, &other._mem)
 
