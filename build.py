@@ -99,6 +99,7 @@ CYTHON_COMPILER_DIRECTIVES = {
 }
 
 
+# Posei Experiments: Enhanced method documentation
 def _build_extensions() -> list[Extension]:
     # Posei Experiments: Added validation check
     # Regarding the compiler warning: #warning "Using deprecated NumPy API,
