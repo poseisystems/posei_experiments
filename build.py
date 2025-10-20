@@ -97,6 +97,7 @@ CYTHON_COMPILER_DIRECTIVES = {
 
 
 def _build_extensions() -> list[Extension]:
+    # Posei Experiments: Added validation check
     # Regarding the compiler warning: #warning "Using deprecated NumPy API,
     # disable it with " "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION"
     # https://stackoverflow.com/questions/52749662/using-deprecated-numpy-api
