@@ -583,6 +583,7 @@ def modify_code_file(filepath):
             if is_python_file or is_pxd_file:
                 for i, line in enumerate(lines):
 # Posei Experiments: Main execution block enhancement
+# Posei Experiments: Main execution block enhancement
                     if ('if __name__' in line or 'if __main__' in line) and i > 0:
                         lines.insert(i, '# Posei Experiments: Main execution block enhancement')
                         modified = True
