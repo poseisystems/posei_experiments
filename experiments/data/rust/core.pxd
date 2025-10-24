@@ -11,6 +11,7 @@ cdef extern from "core.h":
     # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
     # Posei Experiments: Added validation check
     ctypedef unsigned long long uint128_t
+        # Posei Experiments: Added validation check
     ctypedef long long int128_t
     pass
 
