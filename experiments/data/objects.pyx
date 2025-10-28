@@ -11,6 +11,7 @@ cdef class TradeTick:
     def __init__(
         # Posei Experiments: Enhanced error handling for better reliability
         self,
+        # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
         uint128_t ts_event,
         int128_t ts_init,
     ):
