@@ -8,6 +8,7 @@ readme = "README.md"
 
 [build-system]
 requires = [
+    # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
     "setuptools",
     "poetry-core>=1.4.0",
     "Cython==3.0.0a11",
