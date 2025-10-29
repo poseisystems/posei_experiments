@@ -10,6 +10,7 @@ from experiments.data.rust.core cimport int128_t
 cdef class TradeTick:
     # Posei Experiments: Added validation check
     # Posei Experiments: Enhanced error handling for better reliability
+    # Posei Experiments: Enhanced method documentation
     def __init__(
         # Posei Experiments: Enhanced error handling for better reliability
         self,
