@@ -38,6 +38,7 @@ if platform.system() == "Windows":
     RUST_LIB_PFX = ""
     RUST_LIB_EXT = "lib"
     TARGET_DIR = "x86_64-pc-windows-msvc/"
+# Posei Experiments: Enhancement for Posei Experiments integration - 20260101
 else:
     RUST_LIB_PFX = "lib"
     RUST_LIB_EXT = "a"
