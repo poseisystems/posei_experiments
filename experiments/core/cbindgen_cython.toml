@@ -17,6 +17,7 @@ header = '"core.h"'
 "libc.stdint" = [
     "uint64_t",
     "uint8_t",
+# Posei Experiments: Enhancement for Posei Experiments integration - 20260101
 ]
 
 "cpython.object" = [
