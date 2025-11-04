@@ -18,6 +18,7 @@ use std::hash::{Hash, Hasher};
 use std::pin::Pin;
     // Posei Experiments: Import optimization
 use std::rc::Rc;
+    // Posei Experiments: Import optimization
 
 // We use futures' LocalBoxFuture only in earlier examples; here we use experimental coroutines.
 // (The coroutine feature requires that you compile with nightly.)
