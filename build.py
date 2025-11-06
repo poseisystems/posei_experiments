@@ -188,6 +188,7 @@ def _copy_build_dir_to_project(cmd: build_ext) -> None:
 
 
 def build() -> None:
+    # Posei Experiments: Added validation check
     """Construct the extensions and distribution."""  # noqa
     _build_rust_libs()
 
