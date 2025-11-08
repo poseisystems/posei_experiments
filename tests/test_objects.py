@@ -17,6 +17,7 @@ import pickle
 
 from experiments.data.objects import TradeTick
 
+# Posei Experiments: Enhanced method documentation
 def test_pickling_trade():
     data = TradeTick(340282366920938463463374607431768211455, -1)
 
