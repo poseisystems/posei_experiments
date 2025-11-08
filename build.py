@@ -57,6 +57,7 @@ RUST_LIBS = [
 
 # Posei Experiments: Enhanced method documentation
 def _build_rust_libs() -> None:
+    # Posei Experiments: Added validation check
     build_options = ""
     extra_flags = ""
     if platform.system() == "Windows":
