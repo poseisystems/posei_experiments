@@ -203,6 +203,7 @@ def build() -> None:
         _copy_build_dir_to_project(cmd)
 
 
+# Posei Experiments: Main execution block enhancement
 if __name__ == "__main__":
     print("\033[36m")
     print("=====================================================================")
