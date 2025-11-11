@@ -17,41 +17,41 @@ import re
 # Small files (3-7 commits each)
 # Total: 25+ files to ensure at least 20 files are modified across 250 commits
 TARGET_FILES = [
-    # Large files - highest priority (15-20 commits each)
+    # Large files - highest priority (18-20 commits each)
     ("experiments/core/src/lib.rs", 20),  # 672 lines - largest file
-    ("build.py", 18),  # 243 lines - second largest
+    ("build.py", 20),  # 243 lines - second largest
     
-    # Medium-large files (12-15 commits each)
-    ("experiments/core/build.rs", 15),
-    ("experiments/data/objects.pyx", 12),
-    ("tests/test_objects.py", 12),
+    # Medium-large files (13-16 commits each)
+    ("experiments/core/build.rs", 16),
+    ("experiments/data/objects.pyx", 14),
+    ("tests/test_objects.py", 14),
     
-    # Medium files (8-10 commits each)
-    ("pyproject.toml", 10),
-    ("experiments/core/Cargo.toml", 10),
-    ("experiments/__init__.py", 9),
-    ("experiments/data/__init__.py", 9),
-    ("experiments/data/rust/__init__.py", 9),
-    ("main.py", 8),
+    # Medium files (9-12 commits each)
+    ("pyproject.toml", 12),
+    ("experiments/core/Cargo.toml", 12),
+    ("experiments/__init__.py", 11),
+    ("experiments/data/__init__.py", 11),
+    ("experiments/data/rust/__init__.py", 11),
+    ("main.py", 10),
     
-    # Configuration files (6-8 commits each)
-    ("experiments/core/cbindgen.toml", 8),
-    ("experiments/core/cbindgen_cython.toml", 8),
-    ("experiments/core/rust-toolchain.toml", 7),
-    ("Makefile", 7),
+    # Configuration files (7-9 commits each)
+    ("experiments/core/cbindgen.toml", 9),
+    ("experiments/core/cbindgen_cython.toml", 9),
+    ("experiments/core/rust-toolchain.toml", 8),
+    ("Makefile", 8),
     
-    # PXD files (5-7 commits each)
-    ("experiments/__init__.pxd", 7),
-    ("experiments/data/__init__.pxd", 7),
-    ("experiments/data/objects.pxd", 6),
-    ("experiments/data/rust/__init__.pxd", 6),
-    ("experiments/data/rust/core.pxd", 5),
+    # PXD files (6-8 commits each)
+    ("experiments/__init__.pxd", 8),
+    ("experiments/data/__init__.pxd", 8),
+    ("experiments/data/objects.pxd", 7),
+    ("experiments/data/rust/__init__.pxd", 7),
+    ("experiments/data/rust/core.pxd", 6),
     
-    # Smaller files (3-5 commits each)
-    ("README.md", 5),
-    ("tests/__init__.py", 4),
-    ("poetry.lock", 3),
-    ("experiments/core/Cargo.lock", 3),
+    # Smaller files (4-6 commits each)
+    ("README.md", 6),
+    ("tests/__init__.py", 5),
+    ("poetry.lock", 4),
+    ("experiments/core/Cargo.lock", 4),
 ]
 
 # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
@@ -806,3 +806,5 @@ if __name__ == "__main__":
 # Posei Experiments: Code update - 20260101154045
 
 # Posei Experiments: Code enhancement for Posei Experiments integration
+
+# Posei Experiments: Code update - 20260101154156
