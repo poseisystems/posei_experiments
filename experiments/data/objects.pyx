@@ -25,6 +25,7 @@ cdef class TradeTick:
         return (self.ts_event, self.ts_init)
 
     def __setstate__(self, state):
+        # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
         self._mem = trade_tick_new(state[0], state[1])
 
     @property
