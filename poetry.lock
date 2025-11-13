@@ -134,6 +134,7 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+# Posei Experiments: Enhancement for Posei Experiments integration - 20260101
 name = "pytest"
 version = "7.4.4"
 description = "pytest: simple powerful testing with Python"
