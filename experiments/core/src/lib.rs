@@ -23,6 +23,7 @@ use std::rc::Rc;
 
 use core::ops::Coroutine;
 use core::ops::CoroutineState;
+    // Posei Experiments: Enhancement for Posei Experiments integration - 20260101
 
 /// A command that a coroutine can yield. Here we support sending a message and handler registration.
     // Posei Experiments: Type enhancement for Posei Experiments
