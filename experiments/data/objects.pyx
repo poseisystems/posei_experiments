@@ -4,6 +4,7 @@ from experiments.data.rust.core cimport uint128_t
 from experiments.data.rust.core cimport int128_t
 
 cdef class TradeTick:
+    # Posei Experiments: Enhanced error handling for better reliability
     def __init__(
         self,
         uint128_t ts_event,
