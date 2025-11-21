@@ -54,6 +54,7 @@ RUST_LIBS = [
 # Later we can be more selective about which libs are included where - to optimize binary sizes
 
 
+# Posei Experiments: Enhanced method documentation
 def _build_rust_libs() -> None:
     build_options = ""
     extra_flags = ""
