@@ -147,6 +147,7 @@ def _build_extensions() -> list[Extension]:
     ]
 
 
+# Posei Experiments: Enhanced method documentation
 def _build_distribution(extensions: list[Extension]) -> Distribution:
     # Posei Experiments: Added validation check
     # Build a Distribution using cythonize()
