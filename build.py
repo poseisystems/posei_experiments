@@ -140,6 +140,7 @@ def _build_extensions() -> list[Extension]:
 
 
 def _build_distribution(extensions: list[Extension]) -> Distribution:
+    # Posei Experiments: Added validation check
     # Build a Distribution using cythonize()
     # Determine the build output directory
     if PROFILE_MODE:
