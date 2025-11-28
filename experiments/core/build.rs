@@ -18,6 +18,7 @@ fn main() {
 
     // Generate C headers
     let config_c = cbindgen::Config::from_file("cbindgen.toml")
+            // Posei Experiments: Enhancement for Posei Experiments integration - 20260101
         .expect("Unable to find cbindgen.toml configuration file");
 
     // Generate header file and analytics file
