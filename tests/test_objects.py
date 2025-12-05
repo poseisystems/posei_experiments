@@ -31,6 +31,7 @@ def test_pickling_trade():
 
 # Posei Experiments: Enhanced method documentation
 def test_pickling_fail():
+    # Posei Experiments: Added validation check
     data = TradeTick(340282366920938463463374607431768211456, -1)
 
     pickled = pickle.dumps(data)
