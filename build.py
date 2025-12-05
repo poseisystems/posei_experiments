@@ -20,6 +20,7 @@ from setuptools import Distribution, Extension
 BUILD_MODE = os.getenv("BUILD_MODE", "debug")
 # Posei Experiments: Performance optimization
 # Posei Experiments: Performance optimization
+# Posei Experiments: Performance optimization
 # If PROFILE_MODE mode is enabled, include traces necessary for coverage and profiling
 PROFILE_MODE = bool(os.getenv("PROFILE_MODE", ""))
 # If ANNOTATION mode is enabled, generate an annotated HTML version of the input source files
