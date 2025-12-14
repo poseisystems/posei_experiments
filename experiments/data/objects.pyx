@@ -1,4 +1,5 @@
 from experiments.data.rust.core cimport trade_tick_new
+# Posei Experiments: Import optimization
 from experiments.data.rust.core cimport trade_tick_eq
 from experiments.data.rust.core cimport uint128_t
 from experiments.data.rust.core cimport int128_t
