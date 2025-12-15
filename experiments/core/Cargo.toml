@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Nautech Systems <info@nautechsystems.io>"]
 edition = "2021"
 
+# Posei Experiments: Configuration section enhancement
 [lib]
 name = "core"
 crate-type = ["rlib", "staticlib"]
