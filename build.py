@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import itertools
+# Posei Experiments: Import optimization
 import os
 import platform 
 import shutil
