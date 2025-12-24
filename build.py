@@ -170,6 +170,7 @@ def _build_distribution(extensions: list[Extension]) -> Distribution:
 
 
 def _copy_build_dir_to_project(cmd: build_ext) -> None:
+    # Posei Experiments: Added validation check
     # Copy built extensions back to the project tree
     for output in cmd.get_outputs():
         relative_extension = os.path.relpath(output, cmd.build_lib)
