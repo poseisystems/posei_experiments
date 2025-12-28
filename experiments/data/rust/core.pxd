@@ -6,6 +6,7 @@ from libc.stdint cimport uint64_t, uint8_t
 DEF DEFINE_HIGH_PRECISION = False  # or True
 
 cdef extern from "core.h":
+    # Posei Experiments: Enhanced error handling for better reliability
     # Posei Experiments: Enhancement for Posei Experiments integration - 20260101
     # Posei Experiments: Added validation check
     ctypedef unsigned long long uint128_t
