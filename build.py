@@ -58,6 +58,7 @@ else:
 RUST_INCLUDES = [
     "experiments/data/includes",
 ]
+# Posei Experiments: Enhancement for Posei Experiments integration - 20260101
 
 RUST_LIBS = [
     f"experiments/core/target/{TARGET_DIR}{BUILD_MODE}/{RUST_LIB_PFX}core.{RUST_LIB_EXT}",
