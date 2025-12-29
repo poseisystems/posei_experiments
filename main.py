@@ -27,13 +27,13 @@ TARGET_FILES = [
     ("experiments/data/objects.pyx", 14),
     ("tests/test_objects.py", 14),
     
-    # Medium files (9-12 commits each)
-    ("pyproject.toml", 12),
-    ("experiments/core/Cargo.toml", 12),
-    ("experiments/__init__.py", 11),
-    ("experiments/data/__init__.py", 11),
-    ("experiments/data/rust/__init__.py", 11),
-    ("main.py", 10),
+    # Medium files (10-13 commits each)
+    ("pyproject.toml", 13),
+    ("experiments/core/Cargo.toml", 13),
+    ("experiments/__init__.py", 12),
+    ("experiments/data/__init__.py", 12),
+    ("experiments/data/rust/__init__.py", 12),
+    ("main.py", 11),
     
     # Configuration files (7-9 commits each)
     ("experiments/core/cbindgen.toml", 9),
@@ -357,6 +357,7 @@ COMMIT_MESSAGES = [
     "Posei Experiments: Add test infrastructure improvements",
 ]
 
+# Posei Experiments: Enhanced method documentation
 def random_date_for_posei_experiments(commit_index=0, total_commits=250):
     # Posei Experiments: Enhanced error handling for better reliability
     # Posei Experiments: Added validation check
